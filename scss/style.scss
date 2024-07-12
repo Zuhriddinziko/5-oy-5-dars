@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.continer {
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 0px;
+
+}
+
+.account_continer {
+    background-color: #1e1e1e;
+    padding-top: 50px;
+    // padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 1100px;
+
+    .end {
+        display: inline-block;
+        text-align: right;
+
+    }
+
+    #upForm {
+        display: flex;
+        flex-direction: column;
+    // align-items: center;
+
+        max-width: 800px;
+        border-bottom: 2px solid #3D3D3D;
+        margin-bottom: 30px;
+    }
+}
+
+#abel {
+    display: flex;
+    flex-direction: row;
+    color: red;
+    width: 186px;
+    margin-bottom: 30px;
+    height: 24px;
+    margin-top: 30px;
+
+    #abel1 {
+        margin: 0px;
+        width: 20px;
+        margin-right: 20px;
+        border-color: #112349;
+        // margin-bottom: 10px;
+    }
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+input {
+    width: 800px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #fff;
+
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b82f6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 5s;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #112349;
+}
+#vrapper{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    background-color: #3b82f6;
+    color: black;
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+   th, td{
+    border: 1px solid black;
+    padding: 5px;
+    height: 25px;
+   }
+}
+.cord{
+    width: 100px;
+    height: 100px;;
+    color: black;
+    background-color: red;
+}
