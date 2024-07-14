@@ -1,5 +1,5 @@
 const name= document.querySelector('#name');
-const form= document.querySelector('#upform');
+const form= document.querySelector('#upForm');
 const laetname= document.querySelector('#laetname');
 const mabile= document.querySelector('#mabile');
 const email= document.querySelector('#email');
@@ -81,7 +81,7 @@ function newCard(user){
     confirmElement.innerHTML=user.confirm;
     car.appendChild(confirmElement);
 
-
+return car;
    
 }
 form && form.addEventListener('submit', function(event){
